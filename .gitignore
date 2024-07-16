@@ -1,0 +1,24 @@
+# Maven
+target/
+
+# IntelliJ
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Dependency directories
+bin/
+lib/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
