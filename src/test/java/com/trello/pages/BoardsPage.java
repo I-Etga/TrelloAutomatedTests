@@ -22,6 +22,16 @@ public class BoardsPage {
     @FindBy(xpath = "//input[@data-testid = 'create-board-title-input']")
     public WebElement createBoardInput;
 
+    @FindBy(xpath = "//div/section")
+    public WebElement createBoardWindow;
+
+    @FindBy(xpath = "//a[contains(@href, '/b/iLmRSrta') and @role='link' and @aria-label='Board']\n")
+    public WebElement BoardElement;
+
+    @FindBy(xpath = "//a[contains(@href, '/b/iLmRSrta') and @role='link' and @aria-label='Board']\n")
+    public WebElement yourBoardsBoardElement;
+
+
     @FindBy(xpath = "//button[@data-testid = 'create-board-submit-button']")
     public WebElement submitButton;
     @FindBy(xpath = "//button[@aria-label='Show menu']")
