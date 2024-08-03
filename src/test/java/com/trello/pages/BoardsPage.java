@@ -21,6 +21,8 @@ public class BoardsPage {
 
     @FindBy(xpath = "//input[@data-testid = 'create-board-title-input']")
     public WebElement createBoardInput;
+    @FindBy(xpath = "//button[@data-testid= 'create-board-submit-button']")
+    public WebElement createButton;
 
     @FindBy(xpath = "//button[@data-testid = 'create-board-submit-button']")
     public WebElement submitButton;
